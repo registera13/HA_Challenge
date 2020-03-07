@@ -1,2 +1,7 @@
 pandas
 numpy
+pillow
+Matplotlib
+Scipy
+Pytil
+pyqt5
