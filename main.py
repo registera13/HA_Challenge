@@ -20,26 +20,19 @@ class FileIO(object):
 
 class Hg19(object):
     def __init__(self, exon=None, genes=None):
-        self.exon = exon
-        self.genes = genes
-
-    def read_data(self):
         self.exon = pd.read_csv('Data Files/hg19_exon_locations.tsv', sep='\t', header=None)
         self.genes = pd.read_csv('Data Files/hg19_genes.tsv', sep='\t', header=None)
 
-    def sort_gene(self):
-        start
+    def sort_gene(self,ref):
+
         pass
 
-    def sort_exon(self):
+    def sort_exon(self,ref):
         pass
 
 
 if __name__ == "__main__":
     hr19 = Hg19()
     hr19.read_data()
-
-
-
 
 

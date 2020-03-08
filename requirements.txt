@@ -5,3 +5,4 @@ Matplotlib
 Scipy
 Pytil
 pyqt5
+pybedtools
