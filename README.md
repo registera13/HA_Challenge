@@ -26,7 +26,7 @@ Bash script to filter variant data:
 ## Cactus.py
 1) Program for opening .tsv/.bed
 2) determine homozygous in large mutation changes
-3) output as .csv 
+3) output as .vcf
 
 
 
