@@ -24,7 +24,6 @@ class Hg19(object):
         self.genes = pd.read_csv('Data Files/hg19_genes.tsv', sep='\t', header=None)
 
     def sort_gene(self,ref):
-
         if 2 and 3 in range(3, 9):
             print(" %s is in the range")
         else:
@@ -34,9 +33,9 @@ class Hg19(object):
 
     def sort_exon(self,df):
         for index, row in df.iterrows():
-
             if row[1] and row[2] in range():
-
+                pass
+        pass
 
 if __name__ == "__main__":
     data = pd.read_csv('Data Files/hg5_min_6_min_7.bed', sep='\t', header=None)
