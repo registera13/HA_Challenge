@@ -1,3 +1,4 @@
+#python = v3.7
 pandas
 numpy
 pillow
