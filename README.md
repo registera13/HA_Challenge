@@ -28,6 +28,7 @@ Bash script to filter variant data:
 2) determine homozygous in large mutation changes
 3) output as .vcf
 
+## Pictures Doc
 
 
 
